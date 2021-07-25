@@ -133,7 +133,9 @@ h1,h2,h3{
 header{
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(/img/bg.jpg);
+
+  background-image: linear-gradient(to right, #0a66c2c7, #02328094),
+    url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1131714824%2F960x0.jpg%3Ffit%3Dscale");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
